@@ -39,3 +39,4 @@ End
 ```
 
 #### 2. GSM with gyro
+I observed the number of stolen motorbike around me is very high. People need extra security for their motorbike. Thus i made this project. The idea is simple, i would place a MPU6050 module at the steer of the motorbike. If someone by any chance move the steer by force, the angle measurement from MPU6050 will swing more than the threshold predefined. This would trig the microcontroller to send a SMS from SIM800 GSM module to the motorbike owner. This would alert the owner that his motorbike is in danger. The code for this project is available at the gsm_with_gyro folder.
