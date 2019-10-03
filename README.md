@@ -2,7 +2,11 @@
 In this project, i still used board that previously used in mcs51_assembly project. The only difference is i used bascom language for this mcs51_bascom project.
 
 #### 1. Serial Communication
-In mcs51, you can do this basic communication through Tx and Rx port available at P3.1 and P3.0. I assume you already know the basic of serial communication. You have to cross the Tx Rx to another device to do this type of communication. You can see the code i used in bascom_code folder of serial_communication project in this repository. 
+In mcs51, you can do this basic communication through Tx and Rx port available at P3.1 and P3.0. I assume you already know the basic of serial communication. You have to cross the Tx Rx to another device to do this type of communication. You can see the code i used in bascom_code folder of serial_communication project in this repository.
+
+
+![serial](https://github.com/falithurrahman/mcs51_bascom/blob/master/serial_communication/Picture/Simulation.png)
+
 
 Line 1 and 2 is the initialization of the baud rate used for this serial communication. I used 9600 baud rate.
 ```bascom
